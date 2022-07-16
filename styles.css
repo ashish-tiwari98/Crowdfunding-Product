@@ -3,6 +3,11 @@ body{
     padding:0;
     box-sizing:border-box;
     font-family: 'Commissioner', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.header{
+    height:250px;
 }
 
 .header-image{
@@ -27,5 +32,18 @@ body{
 
 .navlinks{
     margin-right: 10%;
+}
+
+.content{
+    width:50%;
+    margin:auto;
+    margin-top:-80px;
+}
+
+.card{
+    margin-bottom:20px;
+    background-color: white;
+    padding:30px;
+    border: 1px solid #eff1f1;
 }
 
