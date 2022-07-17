@@ -16,10 +16,10 @@
 <body>
   <main>
     <div class="header">
-      <div class="header-image"></div>
+      <img class="header-image" src="images/image-hero-desktop.jpg" alt="header-image">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold mt-4" href="#">crowdfund</a>
+          <a class="navbar-brand fw-bold mt-4" href="#"><img src="images/logo.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,14 +41,18 @@
     </div>
     <div class="content">
       <div class="card">
-        Mastercraft Bamboo Monitor Riser
-        A beautiful & handcrafted monitor stand to reduce neck and eye strain.
-      
-        
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img class="mx-auto logo-mastercraft" src="images/logo-mastercraft.svg" alt="card-mastercraft">      
+        <div class="card-heading">Mastercraft Bamboo Monitor Riser</div>
+        <p class="mx-auto">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+        <div class="d-flex">
+        <button class="btn modal-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Back this project
         </button>
-        
+        <div class="bookmark">
+          <img src="images/icon-bookmark.svg" alt="bookmark-img">
+          <button class="btn bookmarkbtn">Bookmark</button>
+        </div>
+        </div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -117,8 +121,7 @@
               </div>
             </div>
           </div>
-        </div>
-        Bookmark
+        </div>       
       </div>
       <div class="card">
         $89,914 of $100,000 backed
