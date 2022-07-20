@@ -95,7 +95,7 @@ p{
     background-size: contain;
 }
 
-.bookmarkbtn{
+.bookmarkbtn,.bookmarkbtn:hover{
     position: relative;
     top:-45px;
     border:none;
