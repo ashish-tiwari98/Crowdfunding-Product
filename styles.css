@@ -6,8 +6,10 @@ body{
     background-color: #fcfcfc;
 }
 
-p{
+p,.leftcount span{
     color:gray;
+    font-size:15px;
+    font-weight:lighter;
 }
 
 .header{
@@ -120,5 +122,51 @@ p{
     height:15px;
 }
 
+.heading{
+    font-weight:bold;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+
+.heading span{
+    color:hsl(176, 50%, 47%);
+    float:right;
+    font-size: 15px;
+}
+
+.footer{
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.leftcount{
+    font-weight:bold;
+    font-size:24px;
+}
+
+.footer .leftcount, .footer p{
+    display: inline-block;
+}
+
+.leftcount span{
+    position: relative;
+    top:-3px;
+}
+
+.footer .btn{
+    float: right;
+    height:40px;
+    width:140px;
+}
+
+.deselected{
+    opacity:50%;
+}
+
+.deselected .btn{
+    background-color: gray;
+    pointer-events: none;
+}
 
 
