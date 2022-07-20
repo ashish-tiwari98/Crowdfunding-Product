@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Commissioner', sans-serif;
+    background-color: #fcfcfc;
+}
+
+p{
+    color:gray;
+}
+
+.header{
+    height:400px;
+}
+
+.header-image{
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:380px;
+}
+
+.navbar-brand{   
+    color:white !important;
+    margin-left:10.5%;
+}
+
+.nav-link{
+    font-size:14px;
+    color:white !important;
+}
+
+.navlinks{
+    margin-right: 10%;
+}
+
+.content{
+    width:50%;
+    margin:auto;
+    margin-top:-100px;
+}
+
+.card{
+    margin-bottom:20px;
+    background-color: white;
+    padding:30px;
+    border: 1px solid #eff1f1;
+}
+
+.logo-mastercraft{
+    margin-top:-65px;
+    margin-bottom:15px;
+}
+
+.card-heading{
+    margin:auto;
+    font-weight:bold;
+    font-size:28px;
+}
+
+.modal-btn, .modal-btn:focus{
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 30px;
+    height:45px;
+    width:170px;
+    color:white;
+    background-color: hsl(176, 50%, 47%);
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.modal-btn:hover{
+    background-color: hsl(176, 72%, 28%);  
+    color:white;
+}
+
+.bookmark{
+    height:45px;
+    width:150px;
+    margin-left:auto;
+    background-color: rgb(248, 244, 244);
+    border-radius: 30px;
+    padding-left:20px;
+}
+
+.bookmark-img{
+    position: relative;
+    left:-20px;
+    width:45px;
+    height:45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bookmarkbtn{
+    position: relative;
+    top:-45px;
+    border:none;
+    color:gray;
+    font-weight: bold;
+    padding:9px;
+    margin-left:25px;
+}
+
+.bar{
+    border-right:2px solid lightgray;
+    height:65px;
+}
+
+.progress-bar{
+    width: 75%;
+    background-color:hsl(176, 50%, 47%);
+    border-radius:6px;
+}
+
+.progress{
+    height:15px;
+}
+
+
+
