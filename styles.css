@@ -169,4 +169,28 @@ p,.leftcount span{
     pointer-events: none;
 }
 
+.btn-close{
+    background: url("images/icon-close-modal.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.modal-header{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-content{
+    padding:20px;
+}
+
+.modal-heading{
+    font-size: 20px;
+}
+.radio-col{
+    width:15px !important;
+}
+
+.hidden{
+    display: none;
+}
