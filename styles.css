@@ -32,7 +32,7 @@ p,.leftcount span{
     position: absolute;
     z-index: -1;
     width:100%;
-    height:380px;
+    height:375px;
 }
 
 .navbar-brand{   
@@ -77,6 +77,18 @@ p,.leftcount span{
     max-width:51%;
 }
 
+#exampleModal2> .modal-dialog{
+    width:36%;
+}
+
+#exampleModal2>.modal-dialog{
+    margin-top:14%;
+}
+
+#exampleModal2  .modal-body{
+    text-align: center;
+}
+
 .modal-btn, .modal-btn:focus{
     font-size:15px;
     font-weight: bold;
@@ -93,6 +105,10 @@ p,.leftcount span{
 .modal-btn:hover{
     background-color: hsl(176, 72%, 28%);  
     color:white;
+}
+
+.finish-btn{
+    width:100px !important;
 }
 
 .bookmark{
@@ -185,6 +201,10 @@ p,.leftcount span{
     pointer-events: none;
 }
 
+.deselected .sub,.deselected .radio-col{
+    pointer-events: none;
+}
+
 .btn-close{
     background: url("images/icon-close-modal.svg");
     background-repeat: no-repeat;
@@ -273,10 +293,6 @@ p,.leftcount span{
 
 .modal-right{
     margin-left:auto;
-}
-
-.pledge{
-    /* display: none; */
 }
 
 .line{

@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link type="text/css" rel="stylesheet" href="styles.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="styles.css">
   <title>Crowdfunding product page</title>
 
 </head>
+
 <body>
   <main>
     <div class="header">
@@ -20,7 +24,9 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold mt-4" href="#"><img src="images/logo.svg" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navlinks collapse navbar-collapse mt-4" id="navbarSupportedContent">
@@ -32,7 +38,7 @@
                 <a class="nav-link" href="#discover">Discover</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#getstarted">Get Started</a>              
+                <a class="nav-link" href="#getstarted">Get Started</a>
               </li>
             </ul>
           </div>
@@ -41,7 +47,7 @@
     </div>
     <div class="content">
       <div class="card">
-        <img class="mx-auto logo-mastercraft" src="images/logo-mastercraft.svg" alt="card-mastercraft">      
+        <img class="mx-auto logo-mastercraft" src="images/logo-mastercraft.svg" alt="card-mastercraft">
         <div class="card-heading">Mastercraft Bamboo Monitor Riser</div>
         <p class="mx-auto">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
         <div class="row mx-1 ">
@@ -49,33 +55,35 @@
             Back this project
           </button>
           <div class="bookmark">
-            <div ><img class="bookmark-img" src="images/icon-bookmark.svg" alt="bookmark-img"></div>
+            <div><img class="bookmark-img" src="images/icon-bookmark.svg" alt="bookmark-img"></div>
             <button class="btn bookmarkbtn">Bookmark</button>
           </div>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
           <div class="modal-dialog">
             <div class="modal-content">
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <div class="modal-body pt-0">
-                        <!-- Selection modal start -->
+                <!-- Selection modal start -->
                 <div class="modal-heading heading">Back this project</div>
                 <p class="mb-4">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
                 <div class="card">
                   <div class="row">
-                  <div class="radio-col">
-                    <label class="radio-container">
-                      <input type="radio"  name="radio">
-                      <span class="checkmark"></span>
-                    </label>
+                    <div class="radio-col">
+                      <label class="radio-container">
+                        <input type="radio" name="radio" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                    <div class="col">
+                      <div class="heading">
+                        <div class="sub">Pledge with no reward</div>
+                      </div>
+                      <p>Choose to support us without a reward if you simply believe in our project. As a backer,
+                        you will be signed up to receive product updates via email.</p>
+                    </div>
                   </div>
-                  <div class="col">
-                    <div class="heading"><div class="sub">Pledge with no reward</div></div>
-                    <p>Choose to support us without a reward if you simply believe in our project. As a backer, 
-                    you will be signed up to receive product updates via email.</p>
-                  </div>
-                </div>
                 </div>
                 <div class="card">
                   <div class="row">
@@ -84,32 +92,35 @@
                         <input type="radio" name="radio">
                         <span class="checkmark"></span>
                       </label>
-                    </div>                    
+                    </div>
                     <div class="col">
                       <div class="d-flex heading">
-                        <div class="sub">Bamboo Stand</div> 
+                        <div class="sub">Bamboo Stand</div>
                         <span class="ms-3">Pledge $25 or more</span>
                         <div class="modal-right">
-                          101 
-                          <span class="ms-2"><p>left</p></span>
+                          101
+                          <span class="ms-2">
+                            <p>left</p>
+                          </span>
                         </div>
                       </div>
-                      <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
-                  you’ll be added to a special Backer member list.</p>
-                  </div>
+                      <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional
+                        campaign, and
+                        you’ll be added to a special Backer member list.</p>
+                    </div>
                   </div>
 
-                <!-- Selected pledge start -->
-                <div class="row mt-0 hidden">
-                  <hr class="line">
-                  <div class="d-flex mt-3">
-                    <p class="my-auto">Enter your pledge</p>
-                    <p class="symbol my-auto ms-auto">$</p>
-                    <input type="number" min="25" placeholder="25" class="pledge-input">
-                    <button class="modal-btn pledge-btn">Continue </button> 
+                  <!-- Selected pledge start -->
+                  <div class="row mt-0 hidden">
+                    <hr class="line">
+                    <div class="d-flex mt-3">
+                      <p class="my-auto">Enter your pledge</p>
+                      <p class="symbol my-auto ms-auto">$</p>
+                      <input type="number" min="25" placeholder="25" class="pledge-input">
+                      <button class="modal-btn pledge-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Continue </button>
+                    </div>
                   </div>
-                </div>
-                <!-- Selected pledge end -->
+                  <!-- Selected pledge end -->
                 </div>
                 <div class="card">
                   <div class="row">
@@ -118,31 +129,34 @@
                         <input type="radio" name="radio">
                         <span class="checkmark"></span>
                       </label>
-                    </div>                    
+                    </div>
                     <div class="col">
                       <div class="d-flex heading">
                         <div class="sub">Black Edition Stand</div>
                         <span class="ms-3">Pledge $75 or more</span>
                         <div class="modal-right">
-                          64 
-                          <span class="ms-2"><p>left</p></span>
+                          64
+                          <span class="ms-2">
+                            <p>left</p>
+                          </span>
                         </div>
                       </div>
-                      <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+                      <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our
+                        Backer
                         member list. Shipping is included.</p>
+                    </div>
                   </div>
+                  <!-- Selected pledge start -->
+                  <div class="row mt-0 hidden">
+                    <hr class="line">
+                    <div class="d-flex mt-3">
+                      <p class="my-auto">Enter your pledge</p>
+                      <p class="symbol my-auto ms-auto">$</p>
+                      <input type="number" min="75" placeholder="75" class="pledge-input" required>
+                      <button class="modal-btn pledge-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Continue </button>
+                    </div>
                   </div>
-                <!-- Selected pledge start -->
-                <div class="row mt-0 hidden">
-                  <hr class="line">
-                  <div class="d-flex mt-3">
-                    <p class="my-auto">Enter your pledge</p>
-                    <p class="symbol my-auto ms-auto">$</p>
-                    <input type="number" min="75" placeholder="75" class="pledge-input">
-                    <button class="modal-btn pledge-btn">Continue </button> 
-                  </div>
-                </div>
-                <!-- Selected pledge end -->
+                  <!-- Selected pledge end -->
                 </div>
                 <div class="card deselected">
                   <div class="row">
@@ -151,46 +165,53 @@
                         <input type="radio" name="radio">
                         <span class="checkmark"></span>
                       </label>
-                    </div>                    
+                    </div>
                     <div class="col">
                       <div class="d-flex heading">
                         <div class="sub">Mahogany Special Edition</div>
                         <span class="ms-3">Pledge $200 or more</span>
                         <div class="modal-right">
-                          0 
-                          <span class="ms-2"><p>left</p></span>
+                          0
+                          <span class="ms-2">
+                            <p>left</p>
+                          </span>
                         </div>
                       </div>
-                      <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+                      <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll
+                        be added
                         to our Backer member list. Shipping is included.</p>
+                    </div>
                   </div>
-                  </div>
-                <!-- Selected pledge  start -->
-                <div class="row mt-0 hidden">
-                  <hr class="line">
-                  <div class="d-flex mt-3">
-                    <p class="my-auto">Enter your pledge</p>
-                    <p class="symbol my-auto ms-auto">$</p>
-                    <input type="number" min="200" placeholder="200" class="pledge-input">
-                    <button class="modal-btn pledge-btn">Continue </button> 
+                  <!-- Selected pledge  start -->
+                  <div class="row mt-0 hidden">
+                    <hr class="line">
+                    <div class="d-flex mt-3">
+                      <p class="my-auto">Enter your pledge</p>
+                      <p class="symbol my-auto ms-auto">$</p>
+                      <input type="number" min="200" placeholder="200" class="pledge-input" disabled>
+                      <button class="modal-btn pledge-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Continue </button>
+                    </div>
                   </div>
                 </div>
-                <!-- Selected pledge end -->
-                </div>
-                <!-- Selection modal end -->
-              
-                <!-- Success modal start -->
-              
-                Thanks for your support!
-                Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-                an email once our campaign is completed.
-                Got it!
               </div>
             </div>
           </div>
-        </div>       
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-body">
+                <img src="images/icon-check.svg" alt="check_img" class="mx-auto">
+                <div class="heading "><h4 class="fw-bold mt-4">Thanks for your support!</h4></div>
+                <p>Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+                an email once our campaign is completed.</p>
+                <button type="button" class="modal-btn finish-btn mt-2" data-bs-dismiss="modal" aria-label="Close">Got it!</button>  
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card"  id="discover">
+      <div class="card" id="discover">
         <div class="d-flex">
           <div class="col">
             <div class="bar me-4">
@@ -202,7 +223,7 @@
             <div class="bar me-4 ms-3">
               <h2 class="fw-bold card2-heading">5,007</h2>
               <p>total backers</p>
-            </div> 
+            </div>
           </div>
           <div class="col">
             <div class="ms-3">
@@ -210,47 +231,57 @@
               <p>days left</p>
             </div>
           </div>
-        </div> 
+        </div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>  
+        </div>
       </div>
       <div class="card" id="about">
         <div class="heading mb-3">About this project</div>
-        <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
-      
-        <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-        to allow notepads, pens, and USB sticks to be stored under the stand.</p>
-        
+        <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen
+          to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve
+          your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+
+        <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer
+          to allow notepads, pens, and USB sticks to be stored under the stand.</p>
+
         <div class="card mt-4" id="getstarted">
           <div class="heading">Bamboo Stand <span>Pledge $25 or more</span></div>
-          <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-          you’ll be added to a special Backer member list.</p>
-          <div class="footer"><div class="leftcount">101 <span>left</span></div><span><button class="btn modal-btn">Select Reward</button></span></div>
+          <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+            you’ll be added to a special Backer member list.</p>
+          <div class="footer">
+            <div class="leftcount">101 <span>left</span></div><span><button class="btn modal-btn">Select
+                Reward</button></span>
+          </div>
         </div>
         <div class="card">
           <div class="heading">Black Edition Stand <span>Pledge $75 or more</span></div>
-          <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-          member list. Shipping is included.</p>
-          <div class="footer"><div class="leftcount">64 <span>left</span></div><span><button class="btn modal-btn">Select Reward</button></span></div>
-          
+          <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+            member list. Shipping is included.</p>
+          <div class="footer">
+            <div class="leftcount">64 <span>left</span></div><span><button class="btn modal-btn">Select
+                Reward</button></span>
+          </div>
+
         </div>
         <div class="card  deselected">
           <div class="heading">Mahogany Special Edition<span>Pledge $200 or more</span></div>
-          <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-          to our Backer member list. Shipping is included.</p>
-          <div class="footer"><div class="leftcount">0 <span>left</span></div><span><button class="btn modal-btn">Out of Stock</button></span></div>
+          <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+            to our Backer member list. Shipping is included.</p>
+          <div class="footer">
+            <div class="leftcount">0 <span>left</span></div><span><button class="btn modal-btn">Out of
+                Stock</button></span>
+          </div>
         </div>
-     </div>
+      </div>
     </div>
-    
-</main>
-
-  <!-- Success modal end -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="scripts.js"></script>
 </body>
+
 </html>
