@@ -29,6 +29,8 @@ p,.leftcount span{
 }
 
 .header-image{
+    background: url("images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
     width:100%;
@@ -36,7 +38,7 @@ p,.leftcount span{
 }
 
 .navbar-brand{   
-    color:white !important;
+    color:white;
     margin-left:10.5%;
 }
 
@@ -47,6 +49,10 @@ p,.leftcount span{
 
 .navlinks{
     margin-right: 10%;
+}
+
+.navbar-toggler-icon{
+    background-image: url("images/icon-hamburger.svg");
 }
 
 .content{
@@ -139,9 +145,14 @@ p,.leftcount span{
     margin-left:25px;
 }
 
+.bookmarkbtn::after{
+    content:"Bookmark";
+}
+
 .bar{
-    border-right:2px solid lightgray;
+    border-right:2px solid rgb(235, 234, 234);
     height:65px;
+    margin-right:30px;
 }
 
 .progress-bar{
@@ -151,7 +162,7 @@ p,.leftcount span{
 }
 
 .progress{
-    height:15px;
+    min-height:15px;
 }
 
 .heading{
@@ -168,7 +179,6 @@ p,.leftcount span{
 
 .footer{
     font-size: 14px;
-    display: inline-block;
     vertical-align: middle;
 }
 
@@ -177,7 +187,7 @@ p,.leftcount span{
     font-size:24px;
 }
 
-.footer .leftcount, .footer p{
+.footer .leftcount{
     display: inline-block;
 }
 
@@ -187,6 +197,7 @@ p,.leftcount span{
 }
 
 .footer .btn{
+    width:100%;
     float: right;
     height:40px;
     width:140px;
@@ -223,6 +234,10 @@ p,.leftcount span{
 
 .col{
     padding-right:0;
+}
+
+.sub + span{
+    margin-left: 25px;
 }
 
 .sub:hover{
@@ -324,7 +339,82 @@ p,.leftcount span{
     max-width:105px;
 }
 
+@media only screen and (max-width:788px){
+    .content{
+        width:80%;
+    }
+}
 
-/* .card {
-    border:2px solid hsl(176, 50%, 47%);
-} */
+@media only screen and (max-width:544px){
+    .header-image{
+        background: url("images/image-hero-mobile.jpg");
+        width:100%;
+    }
+    .content{
+        text-align: left;
+    }
+
+    .card-heading{
+        font-size:20px;
+        text-align: center;
+    }
+
+    .card-heading >p{
+        text-align: center;
+    }
+    #discover .d-flex{
+        flex-direction: column !important;
+    }
+    #discover .col{
+        text-align: center !important;
+        margin:5px auto;
+        width:105px;
+        overflow:visible;
+    }
+
+    .bar{
+        border-right: none;
+        border-bottom: 2px solid rgb(235, 234, 234);
+        margin-right: 0;
+    }
+
+    .bookmarkbtn::after{
+        content:"";
+    }
+
+    .bookmark{
+        width:45px;
+        overflow: hidden;
+    }
+
+    .heading span{
+        width:100%;
+        float:left;
+        margin-top:-2px;
+    }
+
+    .footer .btn{
+        float:left;
+    }
+
+    .leftcount{
+        width:60%;
+        margin-bottom: 10px;
+    }
+
+    .modal-dialog{
+        max-width:80%;
+        margin: 100px auto;
+    }
+    .modal .d-flex{
+        flex-direction: column;
+    }
+
+    .sub + span{
+        margin:0;
+    }
+
+    .modal-right{
+        display: none;
+    }
+}
