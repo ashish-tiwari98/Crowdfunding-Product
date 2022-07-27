@@ -17,9 +17,4 @@ $(".radio-col").click(function(){
     $(".card").children("div.row.mt-0").addClass("hidden");
     par.css("borderColor","hsl(176, 50%, 47%)");
     par.children("div.row").removeClass("hidden");
-    loadSubmitModal($(this));
 });
-
-function loadSubmitModal(clickedele){
-
-}

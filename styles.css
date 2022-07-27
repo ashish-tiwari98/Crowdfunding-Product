@@ -339,6 +339,14 @@ p,.leftcount span{
     max-width:105px;
 }
 
+.hide,.modal-para{
+    display: none;
+}
+
+.desktop-para{
+    display: block;
+}
+
 @media only screen and (max-width:788px){
     .content{
         width:80%;
@@ -413,8 +421,56 @@ p,.leftcount span{
     .sub + span{
         margin:0;
     }
-
     .modal-right{
         display: none;
     }
+    .hide{
+        display: block;
+    }
+
+    .desktop-para{
+        display: none;
+    }
+    .modal-para{
+        font-weight:bold;
+        color:black;
+    }
+
+    .modal-para>span{
+        font-weight: lighter;
+    }
+
+    .radio-col{
+        padding:12px;
+    }
+
+    .top-radio{
+        padding:0;
+    }
+
+    .pledge-row{
+        text-align: center;
+        width:100%;
+    }
+
+    .symbol{
+        position: relative;
+        top:35px;
+        right:100%;
+    }
+
+    .pledge-input, .pledge-input:focus{
+        height:45px;
+        padding:auto
+    }
+
+    .pledge-btn{
+        margin-left: auto;
+        margin-top: -44px;
+    }
+
+    #exampleModal2> .modal-dialog{
+        width:80%;
+    }
+
 }
