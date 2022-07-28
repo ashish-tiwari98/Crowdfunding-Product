@@ -88,7 +88,12 @@ p,.leftcount span{
 }
 
 #exampleModal2>.modal-dialog{
-    margin-top:14%;
+    position: absolute;
+    top:0;
+    left:0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 #exampleModal2  .modal-body{
@@ -362,6 +367,14 @@ p,.leftcount span{
         text-align: left;
     }
 
+    .modal .card{
+        padding:20px;
+    }
+
+    .modal-content{
+        padding:15px;
+    }
+
     .card-heading{
         font-size:20px;
         text-align: center;
@@ -450,7 +463,6 @@ p,.leftcount span{
 
     .pledge-row{
         text-align: center;
-        width:100%;
     }
 
     .symbol{
@@ -467,6 +479,7 @@ p,.leftcount span{
     .pledge-btn{
         margin-left: auto;
         margin-top: -44px;
+        margin-right:0;
     }
 
     #exampleModal2> .modal-dialog{
